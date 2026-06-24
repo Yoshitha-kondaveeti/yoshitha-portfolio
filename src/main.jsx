@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles.css'
-import profile from "./WhatsApp Image 2026-06-24 at 8.43.24 PM.jpeg";
+import profile from "./profile.jpg";
 function App(){
 return (
 return (
