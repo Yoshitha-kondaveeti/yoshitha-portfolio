@@ -1,10 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles.css'
-
+import profile from "./WhatsApp Image 2026-06-24 at 8.43.24 PM.jpeg";
 function App(){
 return (
+return (
 <div className="container">
+
+<img
+  src={profile}
+  alt="Yoshitha Kondaveeti"
+  style={{
+    width: "180px",
+    height: "180px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    marginBottom: "20px"
+  }}
+/>
+
 <h1>Yoshitha Kondaveeti</h1>
 <h2>AI & Machine Learning Enthusiast</h2>
 <p>AI & Data Science student at KL University specializing in Cloud & Edge Computing.</p>
